@@ -27,6 +27,8 @@ lavalink:
   plugins: []
 
 spring:
+  config:
+    import: "optional:configserver:"
   main:
     banner-mode: "log"
 
